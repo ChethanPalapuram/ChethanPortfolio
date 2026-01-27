@@ -20,10 +20,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Neha Annareddy",
-  title: "Hi all, I'm Neha",
+  username: "Chethan P",
+  title: "Hi all, I'm Chethan",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience building Web applications with JavaScript / Reactjs / .NET / Python and some other cool libraries and frameworks."
+    "Master’s Student in Computer Science | Data Analytics and Visualization Enthusiast| A passionate Data Enthusiast with keen interest in Data Engineering and Data Analysis and visualisation.🚀 Having an experience building Web applications with JavaScript / Reactjs / .NET / Python and some other cool libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/15Vc4J7vSO9ZFGGRfbUg2IU0VJMI_jzaQ/view?usp=sharing", // Set to empty to hide the button
@@ -33,10 +33,10 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/nehaAnnareddy",
-  linkedin: "https://www.linkedin.com/in/neha-annareddy/",
-  gmail: "neharuth17@gmail.com",
-  facebook: "https://www.facebook.com/neha.ruth.a/",
+  github: "https://github.com/ChethanPalapuram",
+  linkedin: "https://www.linkedin.com/in/chethan-p1/",
+  gmail: "chethanpalapuram@gmail.com",
+  facebook: "",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
