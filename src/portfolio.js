@@ -23,10 +23,10 @@ const greeting = {
   username: "Chethan P",
   title: "Hi all, I'm Chethan",
   subTitle: emoji(
-    "Master’s Student in Computer Science | Data Analytics and Visualization Enthusiast| A passionate Data Enthusiast with keen interest in Data Engineering and Data Analysis and visualisation.🚀 Having an experience building Web applications with JavaScript / Reactjs / .NET / Python and some other cool libraries and frameworks."
+    "Master’s in Computer Science | Data Engineering, Analytics and Visualization Enthusiast| A passionate Data Enthusiast with keen interest in Data Engineering and Data Analysis and visualisation.🚀 I enjoy transforming data into insights and building intelligent with Python, SQL, Machine Learning, Deep Learning, and Data Visualization and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/15Vc4J7vSO9ZFGGRfbUg2IU0VJMI_jzaQ/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1b0RsKDnggaq4j-9GbVDZ97U0FNaErHyf/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -46,7 +46,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "DATA ENGINEER & ML ENTHUSIAST WHO LOVES SOLVING REAL-WORLD PROBLEMS",
   skills: [
     emoji( "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"),
     emoji("⚡ Design and deliver robust full-stack applications with modern frameworks"),
@@ -58,90 +58,18 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-                {
-      skillName: ".NET (Core/ Maui)",
-      fontAwesomeClassname: "fab fa-microsoft"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-        {
-      skillName: "flask",
-      fontAwesomeClassname: "fas fa-flask"
-    },
-    {
-      skillName: "azure",
-      fontAwesomeClassname: "fab fa-windows"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-        {
-      skillName: "jira",
-      fontAwesomeClassname: "fab fa-jira"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    },
-        {
-      skillName: "figma",
-      fontAwesomeClassname: "fab fa-figma"
-    },
-        {
-      skillName: "cosmosDB/ mongoDB",
-      fontAwesomeClassname: "fas fa-database"
-    },
-        {
-      skillName: "bitbucket",
-      fontAwesomeClassname: "fab fa-bitbucket"
-    },
-            {
-      skillName: "githib",
-      fontAwesomeClassname: "fab fa-github"
-    },
-            {
-      skillName: "atlassian",
-      fontAwesomeClassname: "fab fa-atlassian"
-    },
+    { skillName: "Python", fontAwesomeClassname: "fab fa-python" },
+    { skillName: "SQL", fontAwesomeClassname: "fas fa-database" },
+    { skillName: "MATLAB", fontAwesomeClassname: "fas fa-square-root-alt" },
+    { skillName: "TensorFlow", fontAwesomeClassname: "fas fa-brain" },
+    { skillName: "Machine Learning", fontAwesomeClassname: "fas fa-robot" },
+    { skillName: "Deep Learning", fontAwesomeClassname: "fas fa-network-wired" },
+    { skillName: "Tableau", fontAwesomeClassname: "fas fa-chart-bar" },
+    { skillName: "Power BI", fontAwesomeClassname: "fas fa-chart-pie" },
+    { skillName: "Pandas / NumPy", fontAwesomeClassname: "fas fa-table" },
+    { skillName: "AWS", fontAwesomeClassname: "fab fa-aws" },
+    { skillName: "PostgreSQL / MySQL", fontAwesomeClassname: "fas fa-database" },
+    { skillName: "Git", fontAwesomeClassname: "fab fa-github" }
 
   ],
   display: true // Set false to hide this section, defaults to true
@@ -153,15 +81,15 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "University of Cincinnati",
+      schoolName: "University of Dayton",
       logo: require("./assets/images/uc.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "August 2020 - May 2025",
-      desc: "Graduated top of my class with a 4.0 GPA",
+      subHeader: "Master of Science in Computer Science",
+      duration: "August 2023 - May 2025",
+      desc: "Focused on Data Visualization, Advanced Python, SQL, Artificial Intelligence, and Deep Learning",
       descBullets: [
-        "Software Engineering Certificate",
-        "University Honors Scholar",
-        "Mantei/ MAE Scholar"
+        // "Software Engineering Certificate",
+        // "University Honors Scholar",
+        // "Mantei/ MAE Scholar"
       ]
     },
   ]
@@ -173,69 +101,39 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Full Stack Development", //Insert stack or technology you have experience in
+      Stack: "Python & Data Engineering", //Insert stack or technology you have experience in
       progressPercentage: "95%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "UI/UX",
+      Stack: "Data Visualization",
       progressPercentage: "90%"
     },
     {
-      Stack: "Data Engineering",
+      Stack: "Machine Learning / Deep Learning",
       progressPercentage: "70%"
     },
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
 
-// Work experience section
-
+// Work Experience
 const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
+  display: true,
   experience: [
-        {
-      role: ".NET Software Developer",
-      company: "Omniboom",
-      companylogo: require("./assets/images/omniboom.png"),
-      date: "May 2025 – Present",
-      descBullets: [
-        "Designed and developed a cross-platform iOS app in .NET MAUI (MVVM), integrating Stripe for payments, Toast for bar order processing, and Azure Cosmos DB/MongoDB for scalable patron and venue data storage.",
-        "Built and deployed a microservice-based backend in .NET 6, designing and implementing RESTful APIs with Auth0 authentication, Azure cloud storage, and docker-compose for local development.",
-        "Implemented CI/CD pipelines using Azure Pipelines for automated builds and deployment/testing via the Apple Developer Program and TestFlight, ensuring smooth functionality and user experience across iOS devices."
-      ]
-    },
     {
-      role: "Software Engineer Co-op",
-      company: "Cincinnati Children's Hospital",
-      companylogo: require("./assets/images/childrens.png"),
-      date: "May 2023 – Aug 2023",
+      role: "Data Coordinator",
+      company: "Zenerals Contracts and Services",
+      companylogo: require("./assets/images/zenerals.png"),
+      date: "May 2022 – May 2023",
       descBullets: [
-        "Led full-stack web development using .NET for back-end, migrating 15 key pages from Angular to React (TypeScript, HTML, CSS), improving load times by 30% and supporting a data center serving 19,500+ employees.",
-        "Spearheaded front-end development, communicating with a User Interface team to translate 20+ Figma designs into a responsive, intuitive interface while integrating Entity Framework with MySQL for data management.",
-        "Integrated with an existing LDAP identity system to support 2,000+ users and improved code reliability by implementing NUnit tests (60% coverage), decreasing production bugs by ~40%."
-      ]
-    },
-    {
-      role: "Software Developer Co-op",
-      company: "Matson Money",
-      companylogo: require("./assets/images/matson.png"),
-      date: "Jan 2022 – May 2022, Aug 2022 - Dec 2022",
-      date1: "Aug 2022 - Dec 2022",
-      descBullets: ["Developed multiple full-stack solutions using .NET Core, C#, ASP.NET, and React.js/Redux, including a secure fillable forms system handling 1,000+ monthly financial submissions, improving processing efficiency by 35%.",
-            "Designed and implemented secure RESTful APIs in C# / .NET Core hosted in Azure, replacing Jitterbit integrations to save $40K annually and reduce synchronization errors by 60%; optimized SQL Server databases for 27K+ clients/$11B+ in investments, cutting report generation time by 50%.",
-            "Collaborated in Agile/Scrum teams using JIRA, resolving 50+ backlog tickets, contributing to testing, code reviews, and deployments, and accelerating feature releases by 10%."
+        "Coordinated with project managers, engineers, and field teams across 90+ projects to gather and validate requirements and measurements.",
+        "Cleaned, verified, and structured operational data using Excel (VLOOKUP, INDEX-MATCH, pivot tables) for accurate reporting.",
+        "Automated dashboards and reporting workflows, reducing manual effort by 40% and enabling same-day insights for stakeholders."
       ]
     }
   ]
 };
 
-/* Your Open Source Section to View Your Github Pinned Projects
-To know how to get github key look at readme.md */
-
-const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: false // Set false to hide this section, defaults to true
-};
 
 // Some big projects you have worked on
 
@@ -372,87 +270,28 @@ const achievementSection = {
   display: true // Set false to hide this section, defaults to true
 };
 
-// Blogs Section
-
-const blogSection = {
-  title: "Personal Projects",
-  subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
-  displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
-  blogs: [
-    {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
-      description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
-    },
-    {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
-      description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
-    }
-  ],
-  display: false // Set false to hide this section, defaults to true
-};
-
-// Talks Sections
-
-const talkSection = {
-  title: "TALKS",
-  subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
-  ),
-
-  talks: [
-    {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
-    }
-  ],
-  display: false // Set false to hide this section, defaults to true
-};
-
-// Podcast Section
-
-const podcastSection = {
-  title: emoji("Podcast 🎙️"),
-  subtitle: "I LOVE TO TALK ABOUT MYSELF AND TECHNOLOGY",
-
-  // Please Provide with Your Podcast embeded Link
-  podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
-  ],
-  display: false // Set false to hide this section, defaults to true
-};
 
 // Resume Section
 const resumeSection = {
   title: "Resume",
   subtitle: "Feel free to download my resume",
-
-  // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  display: true
 };
 
+// Contact Section
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+1 5138365032",
-  email_address: "neharuth17@gmail.com"
+  subtitle: "Interested in data, ML, or software projects? Let's talk!",
+  number: "(937) 321-4806",
+  email_address: "chethanpalapuram@gmail.com"
 };
-
-// Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: false // Set true to display this section, defaults to false
+  userName: "",
+  display: false
 };
 
-const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
+const isHireable = true;
 
 export {
   illustration,
@@ -463,12 +302,8 @@ export {
   educationInfo,
   techStack,
   workExperiences,
-  openSource,
   bigProjects,
   achievementSection,
-  blogSection,
-  talkSection,
-  podcastSection,
   contactInfo,
   twitterDetails,
   isHireable,
