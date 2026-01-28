@@ -123,7 +123,7 @@ const workExperiences = {
     {
       role: "Data Coordinator",
       company: "Zenerals Contracts and Services",
-      companylogo: require(""),
+      // companylogo: require(""),
       date: "May 2022 – May 2023",
       descBullets: [
         "Coordinated with project managers, engineers, and field teams across 90+ projects to gather and validate requirements and measurements.",
