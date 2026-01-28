@@ -26,7 +26,7 @@ const greeting = {
     "Master’s in Computer Science | Data Engineering, Analytics and Visualization Enthusiast| A passionate Data Enthusiast with keen interest in Data Engineering and Data Analysis and visualisation.🚀 I enjoy transforming data into insights and building intelligent with Python, SQL, Machine Learning, Deep Learning, and Data Visualization and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1b0RsKDnggaq4j-9GbVDZ97U0FNaErHyf/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1b0RsKDnggaq4j-9GbVDZ97U0FNaErHyf/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -273,7 +273,7 @@ const achievementSection = {
 
 // Resume Section
 const resumeSection = {
-  title: "Resume",
+  title: "ChethanP_Resume",
   subtitle: "Feel free to download my resume",
   display: true
 };
@@ -283,7 +283,7 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: "Interested in data, ML, or software projects? Let's talk!",
   number: "(937) 321-4806",
-  email_address: "chethanpalapuram@gmail.com"
+  email_address: "chethanpalapuram+portfolio@gmail.com"
 };
 
 const twitterDetails = {
