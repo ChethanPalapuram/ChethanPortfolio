@@ -82,7 +82,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "University of Dayton",
-      logo: require("./assets/images/uc.png"),
+      logo: require("./assets/images/ud.png"),
       subHeader: "Master of Science in Computer Science",
       duration: "August 2023 - May 2025",
       desc: "Focused on Data Visualization, Advanced Python, SQL, Artificial Intelligence, and Deep Learning",
@@ -123,7 +123,7 @@ const workExperiences = {
     {
       role: "Data Coordinator",
       company: "Zenerals Contracts and Services",
-      // companylogo: require(""),
+      companylogo: require("./assets/images/zenerals_logo.jpeg"),
       date: "May 2022 – May 2023",
       descBullets: [
         "Coordinated with project managers, engineers, and field teams across 90+ projects to gather and validate requirements and measurements.",
